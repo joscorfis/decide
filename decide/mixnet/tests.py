@@ -27,6 +27,7 @@ class MixnetCase(APITestCase):
         return cipher
 
     def test_create(self):
+
 """
         data = {
             "voting": 1,
@@ -83,6 +84,7 @@ class MixnetCase(APITestCase):
         self.assertNotEqual(shuffled, encrypt)
 """
     def test_decrypt(self):
+
 """
         self.test_create()
 
