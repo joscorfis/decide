@@ -45,7 +45,8 @@ class MixnetCase(APITestCase):
         self.assertEqual(type(key["p"]), int)
         self.assertEqual(type(key["y"]), int)
         '''
-        def test_shuffle(self):
+
+    def test_shuffle(self):
         '''
         self.test_create()
 
@@ -63,7 +64,8 @@ class MixnetCase(APITestCase):
 
         self.assertNotEqual(shuffled, encrypt)
         '''
-        def test_shuffle2(self):
+
+    def test_shuffle2(self):
         '''
         self.test_create()
 
@@ -82,7 +84,7 @@ class MixnetCase(APITestCase):
 
         self.assertNotEqual(shuffled, encrypt)
         '''
-        
+
     def test_decrypt(self):
         '''
         self.test_create()
@@ -107,7 +109,6 @@ class MixnetCase(APITestCase):
 
         self.assertEqual(sorted(clear), sorted(clear2))
         '''
-        
     def test_multiple_auths(self):
         '''
         This test emulates a two authorities shuffle and decryption.
