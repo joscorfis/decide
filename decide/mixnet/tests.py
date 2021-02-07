@@ -64,7 +64,7 @@ class MixnetCase(APITestCase):
         self.assertNotEqual(shuffled, encrypt)
         '''
     def test_shuffle2(self):
-    '''
+        '''
         self.test_create()
 
         clear = [2, 3, 4, 5]
