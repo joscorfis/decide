@@ -13,7 +13,7 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'https://egc-app-decide-joscorfis.herokuapp.com/'
+BASEURL = 'http://localhost:8000'
 
 APIS = {
     'authentication': BASEURL,
@@ -40,8 +40,3 @@ DATABASES = {
 
 # number of bits for the key, all auths should use the same number of bits
 KEYBITS = 256
-
-APIS = {}
-
-import django_heroku
-django_heroku.settings(locals())
