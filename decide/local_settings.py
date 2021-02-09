@@ -13,7 +13,7 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'https://egc-app-decide-joscorfis.herokuapp.com/'
+BASEURL = 'https://egc-app-decide-joscorfis.herokuapp.com'
 
 APIS = {
     'authentication': BASEURL,

@@ -70,8 +70,6 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'https://egc-app-decide-joscorfis.herokuapp.com'
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -164,6 +162,8 @@ KEYBITS = 256
 # Versioning
 ALLOWED_VERSIONS = ['v1', 'v2']
 DEFAULT_VERSION = 'v1'
+
+BASEURL = 'https://egc-app-decide-joscorfis.herokuapp.com'
 
 try:
     from local_settings import *
