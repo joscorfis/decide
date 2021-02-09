@@ -70,7 +70,7 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'https://egc-app-decide-joscorfis.herokuapp.com/'
+BASEURL = 'https://egc-app-decide-joscorfis.herokuapp.com'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
